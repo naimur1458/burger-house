@@ -1,0 +1,339 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+html,body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Bebas Neue', cursive;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*******************************
+ ******Burger House******
+ *******************************/
+/*header section code goes here*/
+.header{
+	width: 100%;
+	background-image: url(../images/grp1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0px;
+}
+.header .logo{
+	width: 100%;
+	margin: 20px 10px;
+}
+.header .upper-text ul{
+	text-align: right;
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px !important;
+}
+.header .upper-text ul li{
+	display: inline-block;
+	padding: 10px;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #3d2514;
+}
+.header .bg-light{
+	background: transparent !important;
+	padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #3d2514;
+    padding: .5rem;
+    /*! margin-bottom: 20px; */
+    font-family: Bebas Neue;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.banner{
+	width: 100%;
+}
+.banner .banner-text{
+	width: 100%;
+	margin: 100px 0px;
+}
+.banner p{
+	font-family: Bebas Neue;
+	font-size: 14px;
+	display: inline;
+	color: #3d2514;
+	border: 2px dashed #3d2514;
+	padding: 5px 10px;
+}
+.banner h1{
+	font-size: 70px;
+	font-family: Alfa Slab One;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #3d2514;
+	line-height: 57px;
+}
+.banner h1 span{
+	font-size: 40px;
+	font-family: Alfa Slab One;
+	text-transform: uppercase;
+	padding: ;
+	color: #3d2514;
+}
+.banner .banner-image img{
+	width: 100%;
+	margin-top: -120px;
+  	margin-bottom: -200px;
+}
+/*header section code ends here*/
+
+/*Popular section starts here*/
+.popular{
+	width: 100%;
+	padding: 60px 0px;
+}
+.popular .pop {
+    margin-left: 38px;
+}
+.popular .in-pop {
+    margin-left: 23px;
+    margin-bottom: 35px;
+}
+/*Popular section ends here*/
+
+/*choose section code goes here*/
+.choose{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.choose .title{
+	width: 100%;
+	position: relative;
+	
+}
+.choose .title .image p {
+	position: absolute;
+	top: 30%;
+	left: 42.5%;
+	font-size: 19px;
+	font-family: Bebas Neue;
+	font-weight: 600;	
+}
+.enjoy{
+	width: 100%;
+	margin-top: 20px;
+}
+.enjoy h1{
+	font-family: Alfa Slab One ;
+	font-size: 43px;
+	line-height: 52px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+.enjoy p{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Montserrat ;
+	font-weight: 300;
+}
+.desburger{
+	width: 100%;
+	padding: 80px 0px;
+}
+.desburger h3{
+	font-size: 30px;
+	line-height: 40px;
+	color: #3d2514;
+}
+.desburger p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+}
+.desburger .btn{
+	padding: 10px 20px;
+	border-radius: 0px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: Alfa Slab One;
+	text-transform: uppercase;
+	background-color: #bf2222;
+	border-color: #bf2222;
+}
+.desburger .btn:hover{
+	background-color: #fff;
+	color: #bf2222;
+	transition: .5s;
+}
+.desburger img{
+	height: 350px;
+	object-fit: cover;
+}
+/*choose section code ends here*/
+
+/* event section code goes here */
+.event{
+	width: 100%;
+	padding: 80px 0px;
+}
+.event .shadow{
+	box-shadow: 2px 2px 4px rgb(228, 223, 223);
+	
+}
+.event .owl-theme{
+	margin-top: 20px;
+}
+.event .owl-theme h4{
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+.event .owl-theme h2 {
+    color: #3d2514;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Alfa Slab One;
+    text-transform: uppercase;
+}
+.event .owl-theme p {
+    margin-top: 15px;
+    font-weight: 300;
+	font-size: 16px;
+}
+.event .owl-theme .owl-dots{
+	text-align: left;
+}
+.event .owl-theme .owl-nav {
+    text-align: center;
+    color: #fff;
+}
+/* event section code ends here */
+
+/*form section code goes here*/
+.form{
+	width: 100%;
+	background: url(../images/form.png) ;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.form .title{
+	text-align: center;
+	padding: 50px 0px;
+}
+.form .title h4{
+	font-family: Bebas Neue;
+	letter-spacing: 3px;
+	color: #3d2514;
+
+}
+.form .title h3 {
+    font-family: Alfa Slab One;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    color: #3d2514;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.form .main-form{
+	width: 60%;
+	margin: 0px auto;
+	padding: 20px;
+
+}
+.form .main-form .btn{
+	width: 100%;
+	background: #bf2222;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: Alfa Slab One;
+	letter-spacing: 2px;
+	border-color: #bf2222;
+} 
+.form .main-form .btn:hover{
+	transition: .5s;
+	background: #fff;
+	color: #bf2222;
+}
+/*form section code ends here*/
+
+/*footer section starts*/
+.footer{
+  width: 100%;
+  padding: 80px 0px 40px;;
+  margin-top: -80px;
+}
+.fot{
+  background-image: url("../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.footer .last-logo{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.footer .foot-text p{
+  color: #ffff;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.location {
+  margin-top: 55px;
+}
+.location ul{
+  text-align: right;
+  margin-right: 50px;
+}
+.location .mail{
+  padding-right: 70px;
+}
+.location ul li{
+  display: inline;
+  list-style-type: none;
+  color: #ffff;
+  margin-left: 25px;
+}
+.footer .copy{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.copy p{
+  color: #ffff;
+  font-size: 12px;
+}
+.foot-icons ul{
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 100px;
+}
+.foot-icons li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 10px;
+}
+.foot-icons li img{
+  width: 20px;
+  height: 20px;
+}
+
+/*footer section ends*/
